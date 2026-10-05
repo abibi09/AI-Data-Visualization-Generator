@@ -1,0 +1,58 @@
+DATA VISUALIZATION REPORT
+==================================================
+
+DATASET SUMMARY
+------------------------------
+Total Records: 500
+Total Columns: 9
+
+COLUMN TYPE ANALYSIS
+------------------------------
+Numeric: quantity, unit_price, customer_age, customer_rating, total_amount
+Categorical: product_category, region
+Datetime: date
+Id: order_id
+
+NUMERIC STATISTICS
+------------------------------
+quantity: Average=4.99, Min=1.00, Max=9.00
+unit_price: Average=263.11, Min=10.12, Max=499.68
+customer_age: Average=40.77, Min=18.00, Max=64.00
+customer_rating: Average=2.97, Min=1.00, Max=5.00
+total_amount: Average=1332.60, Min=10.55, Max=4483.80
+
+CATEGORY INSIGHTS
+------------------------------
+Most common product_category: Home
+Most common region: North
+
+CORRELATION INSIGHTS
+------------------------------
+quantity vs unit_price: weak positive correlation (0.05)
+quantity vs customer_age: weak negative correlation (-0.07)
+quantity vs customer_rating: weak negative correlation (-0.01)
+quantity vs total_amount: strong positive correlation (0.68)
+unit_price vs customer_age: weak positive correlation (0.05)
+unit_price vs customer_rating: weak positive correlation (0.03)
+unit_price vs total_amount: strong positive correlation (0.69)
+customer_age vs customer_rating: weak negative correlation (-0.01)
+customer_age vs total_amount: weak negative correlation (-0.01)
+customer_rating vs total_amount: weak positive correlation (0.04)
+
+OUTLIER DETECTION
+------------------------------
+quantity: 0 outliers detected
+unit_price: 0 outliers detected
+customer_age: 0 outliers detected
+customer_rating: 0 outliers detected
+total_amount: 3 outliers detected
+
+GENERATED VISUALIZATIONS
+------------------------------
+1. Histogram
+2. Bar Chart
+3. Scatter Plot
+4. Line Chart
+5. Pie Chart
+6. Correlation Heatmap
+7. Box Plot
